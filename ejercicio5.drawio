@@ -55,17 +55,29 @@
             <mxPoint x="410" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n7Xt3uVkrjc9ruYNb26h-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="aplica">
-          <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="650" y="320" as="sourcePoint" />
-            <mxPoint x="650" y="430" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="n7Xt3uVkrjc9ruYNb26h-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="corresponde a">
           <mxGeometry relative="1" width="80" as="geometry">
             <mxPoint x="590" y="320" as="sourcePoint" />
             <mxPoint x="430" y="440" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ps5c996NSqi4MBno4jIN-1" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="*" vertex="1">
+          <mxGeometry height="26" width="25" x="545" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ps5c996NSqi4MBno4jIN-2" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="1" vertex="1">
+          <mxGeometry height="26" width="25" x="480" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ps5c996NSqi4MBno4jIN-3" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="1" vertex="1">
+          <mxGeometry height="26" width="25" x="450" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="ps5c996NSqi4MBno4jIN-4" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="1" vertex="1">
+          <mxGeometry height="26" width="25" x="580" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ps5c996NSqi4MBno4jIN-6" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="*" vertex="1">
+          <mxGeometry height="26" width="25" x="378" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="ps5c996NSqi4MBno4jIN-7" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="1" vertex="1">
+          <mxGeometry height="26" width="25" x="378" y="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
