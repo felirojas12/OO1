@@ -8,14 +8,6 @@ public class PersonaFisica extends Cliente{
         this.dni = dni;
     }
 
-    public String getDni() {
-        return dni;
-    }
-
-    public void setDni(String dni) {
-        this.dni = dni;
-    }
-
     public double calcularMonto(DateLapse rango) {
         return super.calcularMonto(rango) * 0.9; // Aplica un descuento del 10%
     }

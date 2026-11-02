@@ -7,12 +7,4 @@ public class ClienteCorporativo extends Cliente{
         super(nombre, direccion);
         this.cuit = cuit;
     }
-
-    public String getCuit() {
-        return cuit;
-    }
-
-    public void setCuit(String cuit) {
-        this.cuit = cuit;
-    }
 }

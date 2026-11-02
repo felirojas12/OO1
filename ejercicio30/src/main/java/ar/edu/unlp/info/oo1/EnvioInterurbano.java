@@ -10,14 +10,6 @@ public class EnvioInterurbano extends Envio {
         this.distanciaEnKm = distanciaEnKm;
     }
 
-    public double getDistanciaEnKm() {
-        return distanciaEnKm;
-    }
-
-    public void setDistanciaEnKm(double distanciaEnKm) {
-        this.distanciaEnKm = distanciaEnKm;
-    }
-
     private double calcularCostoBase() {
         if (distanciaEnKm < 100) {
             return 20;

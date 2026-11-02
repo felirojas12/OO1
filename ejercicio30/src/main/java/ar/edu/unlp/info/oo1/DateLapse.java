@@ -12,18 +12,6 @@ public class DateLapse {
         this.to = to;
     }
 
-    public LocalDate getFrom() {
-        return from;
-    }
-
-    public LocalDate getTo() {
-        return to;
-    }
-
-    public int sizeInDays() {
-        return (int) ChronoUnit.DAYS.between(from, to);
-    }
-
     public boolean includes(LocalDate date) {
         return (date.isEqual(from) || date.isAfter(from)) && (date.isEqual(to) || date.isBefore(to));
     }

@@ -14,9 +14,5 @@ public abstract class EnvioVariable extends Envio{
         return envioRapido;
     }
 
-    public void setEnvioRapido(boolean envioRapido) {
-        this.envioRapido = envioRapido;
-    }
-
     public abstract double calcularCosto();
 }

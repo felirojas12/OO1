@@ -8,7 +8,7 @@ public abstract class Envio {
     private String direccionDestino;
     private double pesoEnGramos;
 
-    public Envio(LocalDate fecha, String direccionOrigen, String direccionDestino, double pesoEnGramos) {
+    protected Envio(LocalDate fecha, String direccionOrigen, String direccionDestino, double pesoEnGramos) {
         this.fecha = fecha;
         this.direccionOrigen = direccionOrigen;
         this.direccionDestino = direccionDestino;
@@ -19,32 +19,8 @@ public abstract class Envio {
         return fecha;
     }
 
-    public void setFecha(LocalDate fecha) {
-        this.fecha = fecha;
-    }
-
-    public String getDireccionOrigen() {
-        return direccionOrigen;
-    }
-
-    public void setDireccionOrigen(String direccionOrigen) {
-        this.direccionOrigen = direccionOrigen;
-    }
-
-    public String getDireccionDestino() {
-        return direccionDestino;
-    }
-
-    public void setDireccionDestino(String direccionDestino) {
-        this.direccionDestino = direccionDestino;
-    }
-
     public double getPesoEnGramos() {
         return pesoEnGramos;
-    }
-
-    public void setPesoEnGramos(double pesoEnGramos) {
-        this.pesoEnGramos = pesoEnGramos;
     }
 
     public abstract double calcularCosto();
