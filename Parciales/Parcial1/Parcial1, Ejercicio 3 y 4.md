@@ -54,8 +54,8 @@ Defina el constructor de Empleado. Observe que Contrato ya tiene sus constructor
 
 ``` java
 public Empleado(String nombre, LocalDate fechaNacimiento, int cantidadHijos, boolean tieneConyuge) {
-    this.nombre = Objects.requireNonNull(nombre);
-    this.fechaNacimiento = Objects.requireNonNull(fechaNacimiento);
+    this.nombre = nombre;
+    this.fechaNacimiento = fechaNacimiento;
     this.cantidadHijos = cantidadHijos;
     this.tieneConyuge = tieneConyuge;
     this.contratos = new ArrayList<>();

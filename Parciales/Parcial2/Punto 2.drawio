@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Página-1" id="PdxWVlbUSTuPrYln9goM">
-    <mxGraphModel dx="1856" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1359" dy="306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,16 +37,16 @@
         <mxCell id="1Q814qG6mnAcJ0bwqgOX-12" parent="1Q814qG6mnAcJ0bwqgOX-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# &amp;lt;&amp;lt;create&amp;gt;&amp;gt; Suscripcion(fechaInicio: Date)" vertex="1">
           <mxGeometry height="26" width="320" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="1Q814qG6mnAcJ0bwqgOX-13" parent="1Q814qG6mnAcJ0bwqgOX-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# calcularMontoConIva(valor: Real): Real" vertex="1">
+        <mxCell id="1Q814qG6mnAcJ0bwqgOX-13" parent="1Q814qG6mnAcJ0bwqgOX-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- calcularMontoConIva(valor: Real): Real" vertex="1">
           <mxGeometry height="26" width="320" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="1Q814qG6mnAcJ0bwqgOX-14" parent="1Q814qG6mnAcJ0bwqgOX-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# calcularRecargo(fechaPago: Date, monto: Real): Real" vertex="1">
+        <mxCell id="1Q814qG6mnAcJ0bwqgOX-14" parent="1Q814qG6mnAcJ0bwqgOX-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- calcularRecargo(fechaPago: Date, monto: Real): Real" vertex="1">
           <mxGeometry height="26" width="320" y="126" as="geometry" />
         </mxCell>
         <mxCell id="1Q814qG6mnAcJ0bwqgOX-15" parent="1Q814qG6mnAcJ0bwqgOX-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ montoAPagar(fecha: LocalDate): Real" vertex="1">
           <mxGeometry height="26" width="320" y="152" as="geometry" />
         </mxCell>
-        <mxCell id="1Q814qG6mnAcJ0bwqgOX-34" parent="1Q814qG6mnAcJ0bwqgOX-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# &amp;lt;&amp;lt;abstract&amp;gt;&amp;gt; calcularCosto(): Real" vertex="1">
+        <mxCell id="1Q814qG6mnAcJ0bwqgOX-34" parent="1Q814qG6mnAcJ0bwqgOX-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- &amp;lt;&amp;lt;abstract&amp;gt;&amp;gt; calcularCosto(): Real" vertex="1">
           <mxGeometry height="26" width="320" y="178" as="geometry" />
         </mxCell>
         <mxCell id="1Q814qG6mnAcJ0bwqgOX-16" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SuscripcionPorUso" vertex="1">
