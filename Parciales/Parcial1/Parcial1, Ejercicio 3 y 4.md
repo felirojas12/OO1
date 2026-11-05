@@ -1,23 +1,23 @@
 # Ejercicios
 
-## Ejercio 3
+## Ejercicio 3
 
 ### A
 
 Indique la opción que incluye **todos** los tipos válidos con los que puede declararse la variable o1 para que el fragmento anterior sea válido en tiempo de compilación.
 
-Opción 1: A, B, C, D
-Opción 2: Printer, A, C, D
-**Opción 3: Printer, A, B, C, D**
+Opción 1: A, B, C, D  
+Opción 2: Printer, A, C, D  
+**Opción 3: Printer, A, B, C, D**  
 Opción 4: Printer, A, B, C
 
 ### B
 
 Suponiendo que o1 fue declarada de tipo Printer, indique la opción que incluye **todos** los tipos que pueden instanciarse y asignarse a la variable o1 en el fragmento anterior.
 
-Opción 1: Printer, A, B, C, D
-Opción 2: C, D
-Opción 3: Printer, A, B, C
+Opción 1: Printer, A, B, C, D  
+Opción 2: C, D  
+Opción 3: Printer, A, B, C  
 **Opción 4: B, C, D**
 
 ### C
@@ -29,10 +29,10 @@ Printer p = new B();
 p.print();
 ```
 
-Opción 1: hola soy A y tambien soy B
-Opción 2: hola soy A
-**Opción 3: hola soy B y tambien soy A**
-Opción 4: hola soy B
+Opción 1: hola soy A y tambien soy B  
+Opción 2: hola soy A  
+**Opción 3: hola soy B y tambien soy A**  
+Opción 4: hola soy B  
 
 ### D
 
@@ -41,9 +41,9 @@ A a = new C();
 a.print();
 ```
 
-Opción 1: hola soy A
-**Opcion 2: hola soy C saludos**
-Opción 3: hola soy C
+Opción 1: hola soy A  
+**Opcion 2: hola soy C saludos**  
+Opción 3: hola soy C  
 Opción 4: hola soy A saludos
 
 ## Ejercicio 4
@@ -89,8 +89,9 @@ void testCalcularSueldoBasicoAntiguedadDiez(); //antiguedad = 10
 void testCalcularSueldoBasicoAntiguedadMayorADiez(); //antiguedad = 11
 
 void testCalcularSueldoBasicoConyuge(); //conyuge = true
-void testCalcularSueldoBasicoSinConyuge(); //conyuge = true
+void testCalcularSueldoBasicoSinConyuge(); //conyuge = false
 
 void testCalcularSueldoBasicoSinHijos(); //hijos = 0
-void testCalcularSueldoBasicoConHijos(); //hijos = 2
+void testCalcularSueldoBasicoConUnHijo(); //hijos = 1
+void testCalcularSueldoBasicoConDosHijos(); //hijos = 2
 ```
